@@ -23,7 +23,7 @@ int main(int argc,char *argv[])
     sa.sa_handler = &handler_tstp;
     sa.sa_flags = SA_RESTART;
 
-    //sigaction(SIGTSTP,&sa,NULL);
+//    sigaction(SIGTSTP,&sa,NULL);
 
 //    signal(SIGTSTP,&handler);  ---> portability reasons
      struct sigaction sa1;

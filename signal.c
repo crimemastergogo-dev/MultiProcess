@@ -12,7 +12,7 @@ int main(int argc,char *argv[])
 {
 
     int id = fork();
-    id = fork();
+//    id = fork();
     if (id == 0)
     {
         while(1)
